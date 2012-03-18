@@ -92,8 +92,8 @@ nav #navuserinfo a:hover {color:#A3DBBB;}
 
 
 /* FOOTER */
-#footer {clear: both;position: relative;width: 990px;}
-#footer {margin-top: -45px;}
+#footer {clear: both;width: 990px;}
+
 
 #footer,
 #footer a {font-family: BebasNeueRegular, Helvetica, Arial;}
