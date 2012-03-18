@@ -1,18 +1,16 @@
 <?php
 /*
-+----------------------------------------------------------------------+
-|        QAPUAS CMS
++-------------------------------------------------------------------+
+|       INDOBIT-TECHNOLOGIES
+|       based           : 02-04-2005
+|       continue        : December 2011
 |
-|	 	 Created for Content Management System 
-|	 	 based 		: 02-04-2005
-|		 continue 	: October 2008
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 |
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|
-|		 R. Abimanyu Yusuf	(bima@abimanyu.org) | Pontianak, INDONESIA
-|        ©QAPUAS.COM 2005-2008 | http://www.qapuas.com
-+----------------------------------------------------------------------+
+|       Rosi Abimanyu Yusuf     (bima@abimanyu.net) | Pontianak, INDONESIA
+|       (c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
 */
 
 class form_class{
