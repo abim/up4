@@ -1,0 +1,307 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+/* table.fixed column width */
+table.fixed {
+	table-layout: fixed;
+}
+
+.widefat th,
+.widefat td {
+	overflow: hidden;
+}
+
+.widefat td p {
+	margin: 2px 0 0.8em;
+}
+
+.widefat {
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.widefat * {
+	word-wrap: break-word;
+}
+
+.widefat a {
+	text-decoration: none;
+}
+
+.widefat td,
+.widefat th {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	font-size: 11px;
+	vertical-align: text-top;
+}
+
+.widefat td {
+	padding: 3px 7px;
+	vertical-align: top;
+}
+
+.widefat td p,
+.widefat td ol,
+.widefat td ul {
+	font-size: 11px;
+}
+
+.widefat th {
+	padding: 7px 7px 8px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.widefat th input {
+	margin: 0 0 0 8px;
+	padding: 0;
+	vertical-align: text-top;
+}
+
+.widefat {
+	border-color: #dfdfdf;
+	background-color: #fff;
+}
+.widefat td,
+.widefat th {
+	border-color: #dfdfdf;
+}
+
+.widefat th {
+	text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+}
+
+.widefat thead tr th {
+	color: #333;
+	cursor: pointer;
+	* cursor: hand;
+	/*background: #ffc05c url(../images/yellow-grad.gif) repeat-x scroll left top;*/
+}
+
+.widefat tfoot tr th {
+	color: #333;
+	background: #DFDFDF url(../images/white-grad.png) repeat-x scroll left top;
+}
+
+
+.widefat .num {
+	text-align: center;
+}
+
+.alternate {
+	background-color: #edfbfc;
+}
+
+.row-actions {
+	visibility: hidden;
+	padding: 2px 0 0;
+}
+
+tr:hover .row-actions {
+	visibility: visible;
+}
+.row-title {
+	font-size: 12px !important;
+	font-weight: bold;
+}
+
+/*jQuery Tables*/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables features
+ */
+
+.dataTables_wrapper {
+	position: relative;
+	min-height: 302px;
+	clear: both;
+	_height: 302px;
+	zoom: 1; /* Feeling sorry for IE */
+}
+
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.dataTables_info {
+	width: 60%;
+	float: left;
+}
+
+.dataTables_paginate {
+	width: 44px;
+	* width: 50px;
+	float: right;
+	text-align: right;
+}
+
+table.display thead th {
+	cursor: pointer;
+	* cursor: hand;
+}
+
+table.display td.center {
+	text-align: center;
+}
+
+table.display tr.even.row_selected td {
+	background-color: #B0BED9;
+}
+
+table.display tr.odd.row_selected td {
+	background-color: #9FAFD1;
+}
+
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('../images/icons/back_disabled.jpg');
+}
+
+.paginate_enabled_previous {
+	background-image: url('../images/icons/back_enabled.jpg');
+}
+
+.paginate_disabled_next {
+	background-image: url('../images/icons/forward_disabled.jpg');
+}
+
+.paginate_enabled_next {
+	background-image: url('../images/icons/forward_enabled.jpg');
+}
+th.no {
+	width:30px;
+}
+th.tgl {
+	width:100px;
+}
+th.harga {
+	width:150px;
+}
+th.right {
+	text-align:right;
+}
+
+.fixed td {border-left:1px dotted #e7e7e7;}
+
+/*
+ * Sorting classes for columns
+ */
+/* For the standard odd/even */
+tr.odd td.sorting_1 {
+	background-color: #f4f4f4;
+}
+
+tr.odd td.sorting_2 {
+	background-color: #f4f4f4;
+}
+
+tr.odd td.sorting_3 {
+	background-color: #f4f4f4;
+}
+
+tr.even td.sorting_1 {
+	background-color: #f8f8f8;
+}
+
+tr.even td.sorting_2 {
+	background-color: #f8f8f8;
+}
+
+tr.even td.sorting_3 {
+	background-color: #f8f8f8;
+}
+
+.sorting_asc {
+	background: url('../images/icons/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('../images/icons/sort_desc.png') no-repeat center right;
+}
+
+.sorting {
+	background: url('../images/icons/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc_disabled {
+	background: url('../images/icons/sort_asc_disabled.png') no-repeat center right;
+}
+
+.sorting_desc_disabled {
+	background: url('../images/icons/sort_desc_disabled.png') no-repeat center right;
+}
+
+.dataTables_scroll {
+	clear: both;
+}
+
+.dataTables_scrollBody {
+	*margin-top: -1px;
+}
+
+.DataTable_alt_pagination div.dataTables_info {
+	width: 40%;
+}
+
+.paging_full_numbers {
+	width: 400px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.paging_full_numbers span.paginate_button,
+ 	.paging_full_numbers span.paginate_active {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.paging_full_numbers span.paginate_button {
+	background: #DFDFDF url(../images/white-grad.png) repeat-x scroll left top;
+}
+
+.paging_full_numbers span.paginate_button:hover {
+	background: #DFDFDF url(../images/white-grad-active.png) repeat-x scroll left top;
+}
+
+.paging_full_numbers span.paginate_active {
+	color:white;
+	background: #DFDFDF url(../images/button-grad-vs.png) repeat-x scroll left top;
+}

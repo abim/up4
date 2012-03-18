@@ -1,3 +1,4 @@
 /inc/_konfigurasi.php
 /inc/qapuas.php
+*.sql
 .DS_Store

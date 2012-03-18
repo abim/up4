@@ -1,0 +1,167 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+.response-msg {
+	padding:6px 10px 10px 45px;
+	font-size:0.9em;
+	margin:0 0 10px;
+}
+
+.response-msg span {
+	display:block;
+	font-weight:bold;
+	padding:0 0 4px;
+}
+
+.error {
+	background:#f9e5e6 url('../images/icons/error.png') 10px 50% no-repeat;
+	color:#b50007;
+	border:#e8aaad solid 1px;
+}
+
+.notice  {
+	background:#f9f9e5 url('../images/icons/notice.png') 10px 50% no-repeat;
+	color:#828400;
+	border:#e8e3aa solid 1px;
+}
+
+.inf {
+	background:#e5ecf9 url('../images/icons/info.png') 10px 50% no-repeat;
+	color:#0055b5;
+	border:#aac6e8 solid 1px;
+}
+
+.success {
+	background:#e9f9e5 url('../images/icons/success.png') 10px 50% no-repeat;
+	color:#1c8400;
+	border:#b4e8aa solid 1px;
+}
+
+.icon99 {
+	float: left;
+	height: 36px;
+	margin: 14px 6px 0 0;
+	width: 36px;
+}
+
+#icon-edit,
+#icon-post {
+	background: transparent url('../images/icons/icons99.png') no-repeat -552px -5px;
+}
+
+#icon-index {
+	background: transparent url('../images/icons/icons99.png') no-repeat -137px -5px;
+}
+
+#icon-upload {
+	background: transparent url('../images/icons/icons99.png') no-repeat -251px -5px;
+}
+
+#icon-link-manager,
+#icon-link,
+#icon-link-category {
+	background: transparent url('../images/icons/icons99.png') no-repeat -190px -5px;
+}
+
+#icon-edit-pages,
+#icon-page {
+	background: transparent url('../images/icons/icons99.png') no-repeat -312px -5px;
+}
+
+#icon-edit-comments {
+	background: transparent url('../images/icons/icons99.png') no-repeat -72px -5px;
+}
+
+#icon-themes {
+	background: transparent url('../images/icons/icons99.png') no-repeat -11px -5px;
+}
+
+#icon-plugins {
+	background: transparent url('../images/icons/icons99.png') no-repeat -370px -5px;
+}
+
+#icon-users,
+#icon-profile,
+#icon-user-edit {
+	background: transparent url('../images/icons/icons99.png') no-repeat -600px -5px;
+}
+
+#icon-tools,
+#icon-admin {
+	background: transparent url('../images/icons/icons99.png') no-repeat -432px -5px;
+}
+
+#icon-options-general {
+	background: transparent url('../images/icons/icons99.png') no-repeat -492px -5px;
+}
+
+	/* Dashboard buttons */
+	
+.other ul#dashboard-buttons li a.Books {
+	background-image:url('../images/icons/Books.png');
+}
+
+.other ul#dashboard-buttons li a.Book_phones {
+	background-image:url('../images/icons/Book_phones.png');
+}
+
+.other ul#dashboard-buttons li a.Briefcase_files {
+	background-image:url('../images/icons/Briefcase_files.png');
+}
+
+.other ul#dashboard-buttons li a.Box_recycle {
+	background-image:url('../images/icons/Box_recycle.png');
+}
+
+.other ul#dashboard-buttons li a.Box_content {
+	background-image:url('../images/icons/Box_content.png');
+}
+
+.other ul#dashboard-buttons li a.Chart_5 {
+	background-image:url('../images/icons/Chart_5.png');
+}
+
+.other ul#dashboard-buttons li a.Clipboard_3 {
+	background-image:url('../images/icons/Clipboard_3.png');
+}
+
+.other ul#dashboard-buttons li a.Chart_4 {
+	background-image:url('../images/icons/Chart_4.png');
+}
+
+.other ul#dashboard-buttons li a.Mail_open {
+	background-image:url('../images/icons/Mail_open.png');
+}
+
+.other ul#dashboard-buttons li a.Glass {
+	background-image:url('../images/icons/Glass.png');
+}
+
+.other ul#dashboard-buttons li a.Globe {
+	background-image:url('../images/icons/Globe.png');
+}
+
+.other ul#dashboard-buttons li a.Mail_compose {
+	background-image:url('../images/icons/Mail_compose.png');
+}
+
+.other ul#dashboard-buttons li a.Star {
+	background-image:url('../images/icons/Star.png');
+}
+
+.other ul#dashboard-buttons li a.Monitor {
+	background-image:url('../images/icons/Monitor.png');
+}
+
+

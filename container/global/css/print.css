@@ -1,0 +1,26 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+.DivToPrint {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 15px;
+	font-size: 14px;
+	line-height: 18px;
+}

@@ -1,0 +1,269 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+@font-face { font-family: 'BebasNeueRegular'; src: url('../../font/BebasNeue-webfont.eot'); src: url('../../font/BebasNeue-webfont.eot?#iefix') format("embedded-opentype"), url('../../font/BebasNeue-webfont.woff') format("woff"), url('../../font/BebasNeue-webfont.ttf') format("truetype"), url('../../font/BebasNeue-webfont.svg#BebasNeueRegular') format("svg"); font-weight: normal; font-style: normal;}
+
+::-moz-selection { background: #7BC533; color: #fff; text-shadow: none; }
+::selection { background: #7BC533; color: #fff; text-shadow: none; }
+
+a:link, a:visited , a:active {color: #004477; text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {color: #5C7EAA; text-decoration: none;}
+
+/*HEADER NAV*/
+header {padding-left:10px;}
+
+nav, #logo {-khtml-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -ms-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -o-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; box-shadow:rgba(0,0,0,0.3) 0 1px 2px;}
+
+#logo {float:left;}
+nav {position:relative; display:block; max-width:980px; height:36px; margin:0; text-align:left; z-index:9998; background:url(../images/nav_global.png) repeat-x; font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;}
+@media only screen and (max-device-width:768px) {
+	nav{ z-index:1; }
+}
+v\:roundrect,
+v\:fill { behavior:url(#default#VML); }
+
+nav #nav_atas { position:relative; display:block; margin:0; padding:0; zoom:1; z-index:3; }
+nav #nav_atas:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+nav #nav_atas li { display:inline; }
+nav #nav_atas li a { float:left; width:102px; height:36px; overflow:hidden; background:url(../images/nav_atas.png) no-repeat; cursor:pointer; }
+nav #nav_atas li a { text-align:center;line-height:2.7;text-decoration:none;color:#fff;text-shadow:0px -1px 1px #474747;}
+nav #nav_atas li a { background-position:100% 0; outline:none; }
+nav #nav_atas li a.before { background-position:100% -36px; }
+nav #nav_atas li a:hover,
+nav #nav_atas li a:focus  { background-position:100% -72px; }
+nav #nav_atas li a:active { background-position:100% -108px; }
+nav #nav_atas li#aktif a { background-position:right -144px !important; }
+
+/* GLOBAL SEARCH */
+#navsearch { position:absolute; top:0; right:0; width:150px; padding:8px 12px; z-index:5; }
+#g-search { display:block; position:relative; }
+
+#navsearch input {width:75%;height:16px; border:0 none; padding:2px 20px; color:#fff; background:url(../images/navsearch_field.png) 0 0 no-repeat; -webkit-appearance:none; }
+#navsearch input:focus { color:#000; background-position:0 100%; outline:none; }
+
+#g-search label { display:block; margin-top:-2px; }
+#g-search .sp-label { margin-bottom:-2px; }
+#g-search .sp-label label { display:none; margin:0; }
+
+nav #judul h1 {display:block;position:absolute;top:45px;right:10px;text-align:right;}
+nav #judul h1 {color:#fff;font: italic normal normal 24px/29px Georgia, "Times New Roman", "Bitstream Charter", Times, serif; margin: 0;text-shadow: #000 0 1px 3px;}
+nav #judul em {text-shadow: #000 0 -1px 0;/*hijau*/ color: #fff; background-image: url('../images/green-grad.png'); background-color: #e4f800;/*hijau*/}
+
+nav #judul em {background-repeat:repeat-x; background-position:0 0; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; cursor:pointer; /* to keep IE happy */
+	display:-moz-inline-stack; /* to keep FF2 happy */
+	display:inline-block; font-size: 50%; font-style:normal; line-height:17px; margin-left:5px; padding:0 6px; vertical-align:middle;}
+nav #navuserinfo{float:right;margin:10px;color:white;}
+nav #navuserinfo a:link, nav #navuserinfo a:visited {color: #fff; text-decoration: none;}
+nav #navuserinfo a:hover {color:#A3DBBB;}
+
+/* TENGAH */
+#wrap {height: auto; min-height: 99.8%; width: 100%;}
+
+#index, #content {-khtml-box-shadow:rgba(0,0,0,0.3) 3px 0 3px; -ms-box-shadow:rgba(0,0,0,0.3) 3px 0 3px; -o-box-shadow:rgba(0,0,0,0.3) 3px 0 3px; -moz-box-shadow:rgba(0,0,0,0.3) 3px 0 3px; -webkit-box-shadow:rgba(0,0,0,0.3) 3px 0 3px; box-shadow:rgba(0,0,0,0.3) 3px 0 3px;}
+
+#index {	margin:0; padding:1em 0 2em 2em; background:#222222;border-right:1px #222222 solid;}
+
+#index h2 {font: normal normal 24px/29px "BebasNeueRegular",  Helvetica, Arial; margin: 0; padding: 14px 15px 3px 0; line-height: 1.5em; color:#fff;}
+
+#content {padding:0;margin-top: -1em;}
+
+#main{display:block;}
+
+#kanan{display:block;}
+
+.li_uppercase li {text-transform:uppercase;}
+
+#content h2 {font: normal normal 18px/29px "BebasNeueRegular",  Helvetica, Arial;border-bottom:1px solid #333;}
+#content h3{font-size:1.4em;}
+#kanan h3 {font: normal normal 1.2em/.5em "BebasNeueRegular",  Helvetica, Arial;color:#333333;}
+
+
+
+/* FOOTER */
+#footer {clear: both;position: relative;width: 990px;}
+#footer {margin-top: -45px;}
+
+#footer,
+#footer a {font-family: BebasNeueRegular, Helvetica, Arial;}
+
+#footer p {margin: 0;padding: 15px;line-height: 15px;}
+
+#footer a {text-decoration: none;}
+#footer a:hover {text-decoration: underline;}
+#footer {background: #11363F;color: #d5d5d5;border-top:2px solid #a2a2a2;font-size: 1.1em;}
+#footer a:link,
+#footer a:visited {color: #fff;text-decoration: none;}
+
+#footer a:hover,
+#footer a:active  {text-decoration: underline;}
+
+/* Style for Usual tabs */
+#Tabs {max-width:100%;}
+#TabsList {
+  max-width:100%;
+  display:block; 
+  margin:0; 
+  padding-left:10px;
+  background:#222;
+  position:relative;
+  height:38px;
+}
+#TabsList li { list-style:none; float:left;}
+
+#TabsList li a {
+  display:block;
+  padding:10px 20px;
+  text-decoration:none!important;
+  margin:0;
+  color:#000;
+  background:#c6c6c6;
+}
+#TabsList li a:hover {
+  color:#FFF;
+  background:#222;
+  }
+#TabsList li a.selected {
+  margin-bottom:0;
+  color:#000;
+  background:white;
+  border-bottom:1px white white;
+  cursor:default;
+  }
+
+.other {
+	font-size:0.9em;
+	margin:8px 0 10px;
+	padding:8px 0 0;
+	width:100%;
+}
+
+.other ul#dashboard-buttons li {
+	float:left;
+	margin:6px;
+}
+	
+.other ul#dashboard-buttons li a {
+	display:block;
+	width:100px;
+	padding:80px 0 0;
+	height:20px;
+	background-repeat:no-repeat;
+	background-position:50% 5px;
+	text-align:center;
+}
+
+.other ul#dashboard-buttons li {
+	border:#fff solid 3px;
+}
+	
+.other ul#dashboard-buttons li a {
+	background-color:#f3f3f3;
+	border:#dcdfe3 solid 1px;
+	border-color:#dcdfe3 #d0d4d8 #d0d4d8 #dcdfe3;
+	color:#666;
+}
+
+.other ul#dashboard-buttons li a:hover {
+	background-color:#e4e7ea;
+	border-color:#c3c9ce;
+	color:#333;
+	text-decoration:none;
+}
+
+.other ul#dashboard-buttons li a:active {
+	border-color:#9d9d9d;
+}
+
+hr{size:0px;color:#e6e5e5;border:1px solid;margin-bottom:15px;}
+
+.w720 {width:720px;}
+.w747 {width:747px;}
+
+.w627 {width:627px;}
+.w600 {width:600px;}
+.w400 {width:400px;}
+.w350 {width:350px;}
+.w300 {width:300px;}
+.w200 {width:200px;}
+
+.w353 {width:343px;}/*kanan*/
+.w223 {width:223px;}/*kanan*/
+
+.wp100 {width:100%;}
+
+
+.maxw990 {max-width:990px;}
+.maxw747 {max-width:747px;}
+
+.pad2em {padding:1em 0 2em 2em;}
+.pad1em {padding:1em;}
+
+.pad10px {padding:10px;}
+
+/* BACKGROUND */
+.white {background:white;}
+.base {background:#F7F6F1;}
+.bg-abu2-1{background:#ededed;}
+.bg-hijau-1{background:#eff9e5;}
+
+/* BORDER */
+.bor_bottom1 {border-bottom: 1px solid #cbcbcb;}
+.bor-hijau-1{border: 1px solid #c8e7a7;}
+.bor_left1 {border-left: 1px solid #cbcbcb;}
+
+
+.ui-corner-all, ul#dashboard-buttons li a, #tooltip {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/* TYPOGRAPHY */
+.uppercase {text-transform:uppercase;}
+.bold {font-weight:bold;}
+
+.clear {clear:both;}
+.alignleft {	float: left;}
+.alignright {float: right;}
+.center {text-align: center;}
+.left {text-align: left;}
+.textright {text-align: right;}
+
+
+
+
+/* Tooltip */
+#tooltip {
+	position:absolute;
+	z-index:30000;
+	padding:3px;
+	background:#363636;
+	color:#FFF!important;
+	font-size:0.7em;
+}
+
+#tooltip div {
+	margin:0;
+	background:#808080;
+	padding:5px;
+	font-size:1.2em;
+}
+
+#tooltip h3 {
+	color:#fff;
+	font-weight:bold;
+	padding:5px;
+	margin:0;
+	background:#5f5f5f;
+}

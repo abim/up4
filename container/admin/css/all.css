@@ -1,0 +1,190 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+body{margin:0;}
+
+html {
+	background-color: #B9B9B9;
+	background:url(../images/bg.jpg) no-repeat #000;
+}
+
+* html input {
+    border-color: #8cbdd5;
+}
+
+textarea,
+input,
+select {
+	border-color: #dfdfdf;
+}
+
+kbd,
+code {
+	background: #eaeaea;
+}
+
+input[readonly] {
+	background-color: #eee;
+}
+
+html, body {
+	height: 100%;
+}
+
+ol, ul {
+	list-style: none;
+	margin:0;padding:0
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body,
+td,
+textarea,
+input,
+select {
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	font-size: 13px;
+}
+
+body,
+textarea {
+	line-height: 1.4em;
+}
+
+input,
+select {
+	line-height: 1em;
+}
+
+p {
+	margin: 1em 0;
+}
+
+blockquote {
+	margin: 1em;
+}
+
+label {
+	cursor: pointer;
+}
+
+li,
+dd {
+	margin-bottom: 6px;
+}
+
+p,
+li,
+dl,
+dd,
+dt {
+	line-height: 140%;
+}
+
+textarea,
+input,
+select {
+	margin: 1px;
+	padding: 1px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .83em 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+h4 {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin: 1.67em 0;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin: 2.33em 0;
+}
+
+ul.ul-disc {
+	list-style: disc outside;
+}
+
+ul.ul-square {
+	list-style: square outside;
+}
+
+ol.ol-decimal {
+	list-style: decimal outside;
+}
+
+ul.ul-disc,
+ul.ul-square,
+ol.ol-decimal {
+	margin-left: 1.8em;
+}
+
+ul.ul-disc > li,
+ul.ul-square > li,
+ol.ol-decimal > li {
+	margin: 0 0 0.5em;
+}
+
+/* remember to define focus styles! */
+/*
+:focus {
+	outline: 0;
+}
+*/
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+

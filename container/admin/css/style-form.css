@@ -1,0 +1,232 @@
+/*
++-------------------------------------------------------------------+
+|	INDOBIT-TECHNOLOGIES
+|	based 		: 02-04-2005
+|	continue 	: December 2011
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|
+|	Rosi Abimanyu Yusuf	(bima@abimanyu.net) | Pontianak, INDONESIA
+|	(c)2005 INDOBIT.COM | http://www.indobit.com
++-------------------------------------------------------------------+
+*/
+
+
+.form-wrap {
+	padding:10px;
+	margin:8px;
+}
+
+.form-wrap label {
+	padding: 2px;
+	font-size: 1em;
+}
+
+.form-wrap p, .form-wrap span {
+	color:#838383;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	margin: 2px 0 0px;
+}
+.form-wrap span{display:inline;}
+
+.form-wrap em {
+	color:red;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	margin: 2px 0 20px;
+}
+
+.form-field input,
+.form-field textarea {max-width: 90%;}
+
+
+.form_col_1 {width:30%;float:left;text-align:right;padding-right:1em;line-height:2em;}
+.form_col_2 {width:60%;float:left;text-align:left;padding-left:1em;line-height:2em;}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: middle;
+}
+
+textarea,
+input,
+select {
+	border-width: 1px;
+	border-style: solid;
+	background:#ffffff;
+}
+textarea:focus,
+input:focus{
+	border-width: 1px;border-style: solid;border-color:#dd5558;background:#f3f3f3;
+}
+textarea:hover,
+input:hover{
+	border-width: 1px;
+	border-style: solid;
+	border-color:#66DD55;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="image"] {
+	border: 0 none;
+}
+
+input.disabled,
+textarea.disabled {
+	background-color: #ccc;
+}
+
+
+input.readonly, textarea.readonly {
+	background-color: #ddd;
+}
+
+.code, code {
+	font-family: Consolas, Monaco, Courier, monospace;
+}
+
+kbd, code {
+	padding: 1px 3px;
+	margin: 0 1px;
+	font-size: 11px;
+}
+
+.submit {
+	padding: 1.5em 0;
+	margin: 5px 0;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-khtml-border-bottom-left-radius: 3px;
+	-khtml-border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+form p.submit a.cancel:hover {
+	text-decoration: none;
+}
+
+.submit input,
+.tombolInput,
+.button-primary,
+.button-secondary,
+.button-highlighted,
+#postcustomstuff .submit input {
+	text-decoration: none;
+	font-size: 11px !important;
+	line-height: 16px;
+	padding: 2px 8px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-khtml-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+a.tombolInput,
+a.button-primary,
+a.button-secondary {
+	line-height: 1.2em;
+	-webkit-border-radius: 10px;
+	padding: 4px 10px;
+	white-space: nowrap;
+}
+
+.button-primary,
+.tombolInput,
+.button-secondary,
+.submit input,
+input[type=button],
+input[type=submit] {
+	border-color: #dfdfdf;
+	color: #464646;
+}
+.button-primary:hover,
+.tombolInput:hover,
+.button-secondary:hover,
+.submit input:hover,
+input[type=button]:hover,
+input[type=submit]:hover {
+	color: #000;
+	border-color: #adaca7;
+}
+
+.form input,
+.form textarea {
+	border-style: solid;
+	border-width: 1px;
+	width: 95%;
+}
+
+.tombolInput,
+.submit input,
+.button-secondary {
+	background: #f2f2f2 url('../images/white-grad.png') repeat-x scroll left top;
+}
+
+.tombolInput:active,
+.submit input:active,
+.button-secondary:active {
+	background: #eee url('../images/white-grad-active.png') repeat-x scroll left top;
+}
+
+.button-primary,
+.submit .button-primary,
+#login form .submit input ,
+#login form .button-primary input {
+	border-color: #5b86ab !important;
+	font-weight: bold;
+	color: #fff !important;
+	background: #5580a6 url('../images/button-grad-vs.png') repeat-x scroll left top;
+}
+
+.button-primary:hover,
+.button-primary:active,
+#login form .submit input:active ,
+#login form .button-primary input:active{
+	background: #21759b url('../images/button-grad-active-vs.png') repeat-x scroll left top !important;
+}
+
+.button[disabled],
+.button:disabled,
+.button-secondary[disabled],
+.button-secondary:disabled,
+a.button.disabled {
+	color: #ccc !important;
+	border-color: #ccc;
+}
+
+/* --- SEARCH --- */
+#PasienSearch form input {
+	border-style: solid;
+	border-width: 1px;
+	width: 50%;
+	padding:10px;
+	font-size:3em;
+}
+
+/* GLOBAL SEARCH */
+#PasienSearch { width:100%; padding:8px 12px; z-index:5;text-align:center;display:inline; }
+
+#PasienSearch input {height:100%; border:1 none; padding:2px 50px; color:#ccc; background:url(../images/icons/Glass.png) 0 0 no-repeat #ffffff; -webkit-appearance:none; text-indent: 50px;-moz-border-radius:10px;
+	-webkit-border-radius:10px;}
+
+
+#PasienSearch input:focus { border:1 none;color:#000; outline:none;}
+
+#x-search label { display:none;}
+#x-search .sp-label { margin-bottom:-2px; }
+#x-search .sp-label label { display:none; margin:0; }

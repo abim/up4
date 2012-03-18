@@ -1,0 +1,5 @@
+function addInput(divName){
+          var newdiv = document.createElement('div');
+          newdiv.innerHTML = "<table class='widefat fixed' cellspacing='0'><thead><tr><th scope='col'>Nama Obat</th><th scope='col' class='num tgl'>Komposisi</th><th scope='col' class='num tgl'>Jumlah Order</th><th scope='col' class='num tgl'>Harga</th></tr></thead><tbody><tr><th scope='col'><input class='input' type='text'  id='nama_obat[]' name='nama_obat[]' size='40' /></th><th scope='col' class='num tgl'><input class='input' type='text'  id='komposisi[]' name='komposisi[]' size='5' /></th><th scope='col' class='num tgl'><input class='input' type='text'  id='jumlah_order[]' name='jumlah_order[]' size='3' /></th><th scope='col' class='num tgl'><input class='input' type='text'  id='harga[]' name='harga[]' size='10' /></th></tr></tbody></table>";
+          document.getElementById(divName).appendChild(newdiv);
+}
