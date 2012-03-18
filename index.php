@@ -15,4 +15,4 @@
 
 @include ("inc/qapuas.php");
 ?>
-<script type='text/javascript'>document.location.href='<?=c_ADMINDIR;?>'</script>
+<script type='text/javascript'>document.location.href='<?php echo c_ADMINDIR;?>'</script>
