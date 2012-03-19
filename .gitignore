@@ -2,3 +2,4 @@
 /inc/qapuas.php
 *.sql
 .DS_Store
+*.db
